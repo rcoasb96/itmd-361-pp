@@ -30,12 +30,14 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 #content {
   display: flex;
   flex-direction: column;
+  float: left;
 }
 
 #three,
 #two,
 #one {
-
+  font-size: 20vw;
+  line-height: 1.222em;
 }
 
 #three {
@@ -51,6 +53,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 
 @media screen and (min-width: 600px) {
+
 
 }
 
